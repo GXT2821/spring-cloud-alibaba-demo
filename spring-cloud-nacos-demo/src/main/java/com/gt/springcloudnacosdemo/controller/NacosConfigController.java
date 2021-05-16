@@ -26,5 +26,11 @@ public class NacosConfigController {
         return info;
     }
 
+    @GetMapping("/getHello")
+    public String getHello(){
+
+        return "hello";
+    }
+
 
 }
